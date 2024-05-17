@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="..//styles/condition.css">
+    <script src="..//js/script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+          <div class="container">
+            <ul class="menu">
+                <div class="logo">
+                    <li><a href="..//html/index.html"><img src="..//image/logotip.svg" alt=""></a></li>
+                </div>
+                <img src="..//image/icons8-гамбургер-меню-50 (1).png" alt="" class="burger" onclick="toggleCollapse('myCollapse1')">
+                <div class="menu1" id="myCollapse1">
+                   <ul class="sections">
+                        <li>Услуги</li>
+                        <a href="..//html/ourauto.html"><li>Наши авто</li></a>
+                        <a href="..//html/index.html"><li>Условия</li></a>
+                        <a href="..//html/index.html"><li>О нас</li></a>
+                   </ul>
+                </div>
+           </ul>
+          </div>
+        </div>
+    </header>
+    
+    <main>
+    <section class="conditions">
+        <div class="container">
+            <div class="condition">
+
+                <div class="title">
+                    <div class="caption">
+                        <p>Наши услуги</p>
+                    </div>
+                </div>
+
+                <div class="onecondition">
+                    <div class="textother">
+                        <p>Вы можете арендовать наши авто для сьемки лучших и дорогих фото.Пусть ваши знакомые будут шокированы от увиденного.Сделай свою жизнь лучше.Двигайтесь вперед с Royal Wheels!</p>
+                    </div>
+
+                    <div class="imageother">
+                        <img src="..//image/fonstola.ru_389634.jpg" alt="">
+                    </div>
+                </div>
+                <div class="onecondition">
+                    <div class="image">
+                        <img src="..//image/avtomobil_dlja_svadby.jpg" alt="">
+                    </div>
+
+                    <div class="text">
+                        <p>Арендуйте авто для самого счастливого дня в жизни - свадьбы!Пусть ваш день будет с лучшими автомобилями.Счастья молодоженам от Royal Wheels!</p>
+                    </div>
+                </div>
+                <div class="onecondition">
+                    <div class="textother">
+                        <p>Водитель - лучший друг автомобиля.С нашим каршерингом машина может приехать вместе с ним.На протяжении всей аренды водитель будет с вами везде,что же может быть лучше личного водителя? Правильно, водитель из команды Royal Wheels!</p>
+                    </div>
+
+                    <div class="imageother">
+                        <img src="..//image/arenda-avtomobilya-s-voditelem.jpg" alt="">
+                    </div>
+                </div>
+                <div class="onecondition">
+                    <div class="image">
+                        <img src="..//image/keys.jpeg" alt="">
+                    </div>
+
+                    <div class="text">
+                        <p>Хотите арендовать автомобиль на сутки или часы? Решение есть,в Royal Wheels доступна как посуточная аренда, так и почасовая.Как же это удобно!</p>
+                    </div>
+                </div>
+                <div class="onecondition">
+                    <div class="textother">
+                        <p>Ваш автомобиль устарел или нет средств его обслуживать? Royal Wheels поможет вам продать ваш автомобиль, но для этого нужно заполнить форму у нас на сайте!</p>
+                    </div>
+
+                    <div class="imageother">
+                        <img src="..//image/handshake.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="onecondition">
+                    <div class="image">
+                        <img src="..//image/tireservice.jpg" alt="">
+                    </div>
+
+                    <div class="text">
+                        <p>У вас сломался автомобиль? Не проблема, автосервис Royal Wheels работает круглосуточно, а так же может выехать к вам на место!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="info-form">
+        <div class="container">
+            <div class="infoform">
+                <p>Чтобы продать автомобиль - вам необходимо заполнить форму ниже для оценки вашего автомобиля в назначенный день.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="form">
+        <form method="POST" class="form1" id="form1" name="form1">
+            
+            <div class="container">
+            <h1 class="form-title">
+                Форма для продажи авто
+            </h1>
+
+            <div class="formfields">
+                <div class="formfield">
+                    <input required title="Можно ввести только лат.буквы" pattern="^\[a-z]" type="text" name="carbrand" placeholder="Марка автомобиля">
+                </div>
+
+                <div class="formfield">
+                    <input required type="text" name="modelauto" placeholder="Модель автомобиля">
+                </div>
+
+                <div class="formfield">
+                    <input required type="number" pattern="^\[0-9]" max="2024" title="Можно ввести только цифры" name="yearofrelease" minlength="4" maxlength="4" placeholder="Год выпуска">
+                </div>
+
+                <div class="formfield">
+                    <input required type="date"  name="date" min="2024-05-17" placeholder="Дата осмотра авто у нас">
+                </div>
+                
+                <button class="button" id="myBtn" type="submit">Отправить форму</button>
+                </div>
+            </div>
+        </form>
+
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+
+                <p>Форма отправлена. Спасибо!</p>
+            </div>
+        </div>
+
+        <script src="..//js/modal-window.js" ></script>
+        <script src="..//js/AJAX.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" defer></script>
+
+    </section>
+</main>
+
+    <footer>
+        <div class="container">
+            <div class="information">
+                <div class="info">
+                    <a href=""><img src="..//image/free-icon-font-tik-tok-6422207 (2) 1.png" alt=""></a>
+
+                    <div class="textinfo">
+                        <p>@gezphnnn0</p>
+                    </div>
+                </div>
+
+                <div class="info">
+                    <img src="..//image/free-icon-font-whatsapp-6422213 1.png" alt="">
+
+                    <div class="textinfo">
+                        <p>@gezphnnn0</p>
+                    </div>
+                </div>
+
+                <div class="info">
+                    <img src="..//image/free-icon-font-whatsapp-6422213 (2) 2.png" alt="">
+
+                    <div class="textinfo">
+                        <p>+375333798204</p>
+                    </div>
+                </div>
+
+                <div class="info">
+                    <img src="..//image/free-icon-vibrating-phone-73552 (3) 1.png" alt="">
+
+                    <div class="textinfo">
+                        <p>+375333798204</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

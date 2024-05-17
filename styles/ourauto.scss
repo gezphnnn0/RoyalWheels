@@ -1,0 +1,518 @@
+body {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+a {
+	text-decoration: none;
+}
+div {
+	ul {
+		&.menu {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			margin: 0px;
+			padding: 0px;
+		}
+	}
+	&.auto {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		gap: 15px;
+	}
+}
+@font-face {
+	font-family: "Inter";
+	src: url("Inter-ExtraBold.woff")format("woff");
+}
+header {
+	ul {
+		&.sections {
+			margin: 0px;
+			padding: 0px;
+		}
+	}
+	div {
+		&.navbar {
+			width: 100%;
+			padding: 5px 0px;
+			background-color: #C23434;
+
+			.container
+            {
+                .menu
+                {
+                    .burger
+                    {
+                        height: 30px;
+                        width: 30px;
+                        display: none;
+                    }
+                }
+            }
+
+			ul {
+				div {
+					&.logo {
+						list-style-type: none;
+						img {
+							width: 100%;
+                            max-width: 80px;
+						}
+					}
+				}
+				ul {
+					&.sections {
+						display: flex;
+						li {
+							margin-right: 60px;
+							margin-top: 40px;
+							margin-bottom: 30px;
+							list-style-type: none;
+							font-size: 20px;
+							font-family: Inter;
+							color: white;
+							transition: 0.4s;
+							&:hover {
+								color: #BCBCBC;
+								cursor: pointer;
+							}
+						}
+					}
+				}
+			}
+			div {
+				&.container {
+					width: 100%;
+					max-width: 1170px;
+					margin: auto;
+				}
+			}
+		}
+	}
+}
+section {
+	&.automobile {
+		div {
+			&.container {
+				padding: 60px 0 0 0;
+				display: block;
+				width: 100%;
+				background-image: url(backgroundauto\ 1.png);
+				background-position: top;
+				div {
+					&.container1 {
+						width: 100%;
+						max-width: 750px;
+						margin: auto;
+						height: 1700px;
+					}
+				}
+			}
+		}
+	}
+}
+.firstrow {
+	display: flex;
+	flex-direction: row;
+	gap: 15px;
+	justify-content: center;
+}
+.secondrow {
+	display: flex;
+	flex-direction: row;
+	gap: 15px;
+	justify-content: center;
+}
+.thirdrow {
+	display: flex;
+	flex-direction: row;
+	gap: 15px;
+	justify-content: center;
+}
+.fourthrow {
+	display: flex;
+	flex-direction: row;
+	gap: 15px;
+	justify-content: center;
+}
+.fifthrow {
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	justify-content: center;
+}
+.car1,.car2,.car3,.car4,.car5,.car6,.car7,.car8,.car9,.car10,.car11,.car12,.car13,.car14,.car15 {
+	width: 100%;
+    max-width: 220px;
+	height: 100%;
+    max-height: 300px;
+	background-color: #BCBCBC;
+	border: solid 2px black;
+	border-radius: 20px;
+	transition: 0.5s;
+}
+.car1 {
+	&:hover {
+		scale: 1.2;
+		margin: 0px 25px 25px 0px;
+		cursor: pointer;
+	}
+}
+.car4:hover, .car7:hover, .car10:hover {
+	scale: 1.2;
+	margin: 25px 25px 25px 0px;
+	cursor: pointer;
+}
+.car13 {
+	&:hover {
+		scale: 1.2;
+		margin: 25px 25px 0px 0px;
+		cursor: pointer;
+	}
+}
+.car2 {
+	&:hover {
+		scale: 1.2;
+		margin: 0px 25px 25px 25px;
+		cursor: pointer;
+	}
+}
+.car5:hover,.car8:hover,.car11:hover {
+	scale: 1.2;
+	margin: 25px;
+	cursor: pointer;
+}
+.car14 {
+	&:hover {
+		scale: 1.2;
+		margin: 25px 25px 25px 25px;
+		cursor: pointer;
+	}
+	div {
+		&.car {
+			img {
+				margin-top: 50px;
+			}
+		}
+	}
+}
+.car3 {
+	&:hover {
+		scale: 1.2;
+		margin: 0px 0px 25px 25px;
+		cursor: pointer;
+	}
+}
+.car6:hover,.car9:hover,.car12:hover {
+	scale: 1.2;
+	margin: 25px 0px 25px 25px;
+	cursor: pointer;
+}
+.car15 {
+	&:hover {
+		scale: 1.2;
+		margin: 25px 0px 25px 25px;
+		cursor: pointer;
+	}
+	div {
+		&.car {
+			img {
+				margin-top: 50px;
+			}
+		}
+	}
+}
+.car {
+	width: 100%;
+    max-width: 190px;
+	height: 190px;
+	background-color: white;
+	margin: 15px;
+	border-radius: 20px;
+	img {
+		width: 100%;
+        max-width: 190px;
+		margin-top: 35px;
+	}
+}
+.namecar {
+	width: 100%;
+    max-width: 220px;
+	text-align: center;
+	padding: 0px;
+	font-family: Inter;
+	color: white;
+	background-color: #C23434;
+}
+.rentalprice {
+	padding: 0px;
+	width: 100%;
+    max-width: 210px;
+	color: white;
+	font-family: Inter;
+	text-align: center;
+}
+.car5 {
+	div {
+		&.car {
+			img {
+				margin-top: 55px;
+			}
+		}
+	}
+}
+.car8 {
+	div {
+		&.car {
+			img {
+				margin-top: 45px;
+			}
+		}
+	}
+}
+.car12 {
+	div {
+		&.car {
+			img {
+				margin-top: 55px;
+			}
+		}
+	}
+}
+footer {
+	background-color: #C23434;
+	padding: 30px;
+	div {
+		&.container {
+			width: 100%;
+            max-width: 1070px;
+			margin: auto;
+		}
+	}
+}
+.information {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	margin: auto;
+}
+.info {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	color: white;
+	font-family: Inter;
+	img {
+		width: 100%;
+        max-width: 30px;
+		height: 100%;
+        max-height: 30px;
+	}
+}
+
+
+@media (min-width:320px) and (max-width:500px) {
+
+    header {
+        ul {
+            &.sections {
+                margin: 0px;
+                padding: 0px;
+            }
+        }
+        div {
+            &.navbar {
+                width: 100%;
+                padding: 5px 0px;
+                background-color: #C23434;
+
+				.container
+            {
+				max-width: 350px;
+                .menu
+                {
+					margin: auto;
+					max-width: 350px;
+                    .burger
+                    {
+                        display: flex;
+                    }
+
+                    .menu1
+                    {
+                        display: none;
+                        .sections
+                        {
+                            display: flex;
+                            flex-direction: column;
+                            background-color: #8c2626;
+                            border-radius: 0;
+
+                            li
+                            {
+                                padding-left: 5px;
+                                margin-top: 5px;
+							    margin-bottom: 5px;
+                                font-size: 12px;
+
+								&:hover {
+									color: white;
+								}
+                            }
+                        }
+                    }
+
+                }
+
+            }
+
+                ul {
+                    div {
+                        &.logo {
+                            img {
+                                width: 80px;
+                            }
+                        }
+                    }
+                }
+                div {
+                    &.container {
+                        width: 100%;
+                        max-width: 1170px;
+                        margin: auto;
+                    }
+                }
+            }
+        }
+    }
+
+    section {
+        &.automobile {
+            div {
+                &.container {
+                    div {
+                        &.container1 {
+                            width: 100%;
+                            max-width: 750px;
+                            height: 100%;
+                            max-height: 4700px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .firstrow, .secondrow ,.thirdrow, .fourthrow, .fifthrow {
+        flex-direction: column;
+    }
+
+    .car1,.car2,.car3,.car4,.car5,.car6,.car7,.car8,.car9,.car10,.car11,.car12,.car13,.car14,.car15 {
+        max-width: 300px;
+        width: 300px;
+        margin: auto;
+    }
+	.car1 {
+		&:hover {
+			scale: 1;
+			margin: 0;
+		}
+	}
+	.car4:hover, .car7:hover, .car10:hover {
+		scale: 1;
+		margin: 0;
+	}
+	.car13 {
+		&:hover {
+			scale: 1;
+			margin: 0;
+		}
+	}
+	.car2 {
+		&:hover {
+			scale: 1;
+			margin: 0;
+		}
+	}
+	.car5:hover,.car8:hover,.car11:hover {
+		scale: 1;
+		margin: 0;
+	}
+	.car14 {
+		&:hover {
+			scale: 1;
+			margin: 0;
+		}
+	}
+	.car3 {
+		&:hover {
+			scale: 1;
+			margin: 0;
+		}
+	}
+	.car6:hover,.car9:hover,.car12:hover {
+		scale: 1;
+		margin: 0;
+	}
+	.car15 {
+		&:hover {
+			scale: 1;
+			margin: 0;
+		}
+	}
+
+    .car{
+        max-width: 270px;
+        img{
+            margin: 10px 30px;
+        }
+    }
+
+    .namecar {
+        max-width: 300px;
+    }
+    .rentalprice {
+        max-width: 300px;
+    }
+
+
+    footer {
+        margin: 90px 0 0 0;
+        background-color: #C23434;
+        padding: 10px;
+        div {
+            &.container {
+                width: 100%;
+                max-width: 1070px;
+                margin: auto;
+            }
+        }
+    }
+
+    .information {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 6px;
+        margin: auto;
+    }
+    .info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+        gap: 5px;
+        color: white;
+        font-family: Inter;
+        img {
+            width: 100%;
+            max-width: 20px;
+            height: 100%;
+            max-height: 20px;
+        }
+    }
+    
+}

@@ -1,0 +1,93 @@
+<cars>
+
+    <car>
+        <image>../image/audiA5</image>
+        <title>Audi A5 2017</title>
+        <cost>от 260 BYN/сутки</cost>
+    </car>
+
+     <car>
+        <image></image>
+        <title>Shelby Mustang</title>
+        <cost>от 460 BYN/сутки</cost>
+    </car>
+
+     <car>
+        <image></image>
+        <title>Porsche 911 Carrera</title>
+        <cost>от 390 BYN/сутки</cost>
+    </car>
+
+     <car>
+        <image></image>
+        <title>BMW M2 Coupe</title>
+        <cost>от 360 BYN/сутки</cost>
+    </car>
+
+     <car>
+        <image></image>
+        <title>Lincoln Cont.</title>
+        <cost>от 460 BYN/сутки</cost>
+    </car>
+
+     <car>
+        <image></image>
+        <title>Rolls Roys Ghost</title>
+        <cost>от 580 BYN/сутки</cost>
+    </car>
+
+     <car>
+        <image></image>
+        <title>Cadillac Escalade</title>
+        <cost>от 280 BYN/сутки</cost>
+    </car>
+
+     <car>
+        <image></image>
+        <title>Mercedes S63</title>
+        <cost>от 350 BYN/сутки</cost>
+    </car>
+
+     <car>
+        <image></image>
+        <title>Mercedes C63</title>
+        <cost>от 380 BYN/сутки</cost>
+    </car>
+
+     <car>
+        <image></image>
+        <title>Mercedes AMG GT</title>
+        <cost>от 420 BYN/сутки</cost>
+    </car>
+
+     <car>
+        <image></image>
+        <title>BMW M4 GTS</title>
+        <cost>от 420 BYN/сутки</cost>
+    </car>
+
+     <car>
+        <image></image>
+        <title>Lambo Aventador</title>
+        <cost>от 720 BYN/сутки</cost>
+    </car>
+
+     <car>
+        <image></image>
+        <title>Ferrari 488 Pista</title>
+        <cost>от 800 BYN/сутки</cost>
+    </car>
+
+     <car>
+        <image></image>
+        <title>Jaguar XKR</title>
+        <cost>от 420 BYN/сутки</cost>
+    </car>
+
+     <car>
+        <image></image>
+        <title>Maserati Kvatroporte</title>
+        <cost>от 470 BYN/сутки</cost>
+    </car>
+    
+</cars>
